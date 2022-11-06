@@ -312,8 +312,6 @@ img {
   align-items: center;
   gap: 10px;
 }
-.social_icons_item {
-}
 
 .social-link {
   display: flex;
@@ -429,8 +427,6 @@ img {
   color: var(--active-color);
 }
 
-.footer-socials {
-}
 .socials-footer-header {
   margin-bottom: 20px;
   font-style: normal;
