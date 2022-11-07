@@ -196,18 +196,21 @@ img {
 }
 .advantages-list .item {
   margin-right: 30px;
+  width: 270px;
 }
-.item:last-child {
+.advantages-list .item:last-child {
   margin-right: 0;
 }
 .advantages_image {
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  display: flex;
+  height: 120px;
+  justify-content:center;
+  align-items: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
+
 .advantages-header {
   margin-bottom: 10px;
   font-weight: 700;
@@ -226,7 +229,6 @@ img {
 /* What we do */
 .skills-header {
   margin-bottom: 50px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -237,10 +239,11 @@ img {
   display: flex;
   list-style-type: none;
 }
+
 .skills-list .item {
   margin-right: 30px;
 }
-.item:last-child {
+.skills-list .item:last-child {
   margin-right: 0;
 }
 
@@ -357,7 +360,7 @@ img {
   display: flex;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 15px 32px;
+  height: 92px;
   justify-content: center;
   align-items: center;
 }
@@ -462,15 +465,15 @@ img {
   background-color: var(--active-color);
 }
 
+
 .filter-list {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  gap: 8px;
   margin-bottom: 50px;
 }
-.filter-list .item {
-  margin-right: 8px;
-}
+
 .filter-list-button {
   padding-top: 6px;
   padding-bottom: 6px;
